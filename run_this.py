@@ -1,6 +1,6 @@
 #!/usr/bin/env python
 
-if __name__ == "__main__":
+def start():
     user_input = input("Enter your favorie number: ")
     if user_input == '2':
         # hmmm, I'm not sure what's up with this valid_answer variable. Do you ever use it for anything?
@@ -18,3 +18,10 @@ if __name__ == "__main__":
     else:
         print("You are not my father.")
     
+        print("Lame. Goodbye.")
+        print("alright, Ill give you one more chance.")
+        start()
+        
+if __name__ == "__main__":
+  
+  start()
