@@ -2,8 +2,7 @@
 but I forget what's up with that."""
 
 
-
-if __name__ == "__main__":
+def start():
     user_input = input("Enter your favorie number: ")
     if user_input == '2':
         valid_answer = False
@@ -19,4 +18,6 @@ if __name__ == "__main__":
                 print("Please enter yes or no")
     else:
         print("Lame. Goodbye.")
-    
+        print("alright, Ill give you one more chance.")
+        start()
+start()
