@@ -8,7 +8,7 @@ if __name__ == "__main__":
     if user_input == '2':
         valid_answer = False
         while valid_answer == False:
-            answer = input("Are you my father?")
+            answer = input("Are you my father? ")
             if answer == 'yes':
                 print("Luke, I am your father!")
                 valid_answer = True
@@ -17,4 +17,6 @@ if __name__ == "__main__":
                 valid_answer = True
             else:
                 print("Please enter yes or no")
+    else:
+        print("Lame. Goodbye.")
     
